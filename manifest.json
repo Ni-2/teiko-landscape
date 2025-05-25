@@ -1,0 +1,19 @@
+{
+
+"version": "1.0",
+
+"api_version": 1,
+
+"layout":
+
+{
+
+"logo": "http://www.teikolandscape.ru/Image/logo.png",
+
+"color": "#FFF",
+
+"show_title": false
+
+}
+
+}
