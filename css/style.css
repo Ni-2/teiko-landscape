@@ -538,12 +538,7 @@ label[for='raz']:hover,
 #about-content img {
 	width: 100%;
 }
-#map {
-	position: relative;
-	width: 100%;
-	height: 600px;
-	max-height: 50vh;
-}
+
 hr {
 	background-color: black;
 	margin: 0;
@@ -597,14 +592,8 @@ footer {
 	display: block;
 	content: '';
 	height: 1px;
-	opacity: 0;
-	background-color: #000;
+	background-color: rgb(205, 220, 49);
 	transition: opacity 0.3s ease-in-out;
-}
-
-.cont a:hover:after,
-.cont a:focus:after {
-	opacity: 1;
 }
 
 @media only screen and (min-width: 745px) {

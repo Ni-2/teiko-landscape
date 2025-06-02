@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="slick/slick.css"/>
     <link rel="stylesheet" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/lightbox.css">
-	<script src="js/modernizr.js"></script>
     <script src="js/jquery.js"></script>
 </head>
 
@@ -23,7 +22,6 @@
                 <li><span><a href="projects.html">Портфолио</a></span></li>
                 <li><a href="services.html">Услуги / Цены</a></li>
                 <li><a href="about.html">О нас</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
             </ul>
         </nav>
         <a id="phone-number" href="tel:+79114039484">+7 (911) 403-94-84</a>
@@ -34,7 +32,6 @@
 			<li><a href="projects.html">Портфолио</a></li>
 			<li><a href="services.html">Услуги / Цены</a></li>
 			<li><a href="about.html">О нас</a></li>
-			<li><a href="contacts.html">Контакты</a></li>
 		</ul>
 	</nav>
 	<main class="cd-content">
@@ -137,18 +134,7 @@
 		</div>
     </footer>
 <script src="js/velocity.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
-<script>
-    $('.share-btn a').on('click', function() {
-        var id = $(this).data('id');
-        if(id) {
-            var data = $(this).parent('.share-btn');
-            var url = data.data('url') || location.href, title = data.data('title') || '', desc = data.data('desc') || '';
-            cubeShare.share(id, url, title, desc);
-        }
-    });
-</script>
-<script src="js/share.js"></script>	
+<script src="js/main.js"></script>
 <script src="slick/slick.js"></script>
 <script>
 	$(document).ready(function(){
