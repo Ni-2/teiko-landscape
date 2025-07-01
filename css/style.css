@@ -1252,7 +1252,7 @@ footer {
 	border-top: 1px solid #b5b5b5;
 }
 .serv1 {
-	flex-basis: 80%;
+	flex-basis: 100%;
 	padding: 10px 30px 10px 40px;
 	border-left: 1px solid #b5b5b5;
 }
@@ -1269,13 +1269,13 @@ footer {
 .serv1 ol {
 	list-style: decimal inside;
 }
-.serv2 {
+/* .serv2 {
 	display: flex;
 	flex-basis: 20%;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-}
+} */
 
 #express {
 	position: relative;
